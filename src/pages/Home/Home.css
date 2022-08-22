@@ -1,0 +1,30 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.section-1 {
+  background-image: linear-gradient(#f2f6ff, white);
+  padding: 20px;
+}
+.section-2 {
+  background-color: #f2f6ff;
+  padding: 20px;
+}
+.section-5-p {
+  color: #ffa13c;
+  font-size: larger;
+}
+.newsletter {
+  background: linear-gradient(
+    119deg,
+    rgba(66, 58, 212, 1) 59%,
+    rgba(4, 18, 210, 1) 59%,
+    rgba(9, 9, 121, 1) 59%
+  );
+  color: white;
+}
