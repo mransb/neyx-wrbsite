@@ -1,15 +1,100 @@
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 600;
   font-size: 55px;
+}
+h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 600;
 }
 p {
   font-family: "Montserrat";
-  font-weight: 600;
+  font-weight: 400;
 }
 .section-1 {
-  background-image: linear-gradient(#f2f6ff, white);
+  /* background-image: linear-gradient(#f2f6ff, white); */
   padding: 20px;
+}
+.arrow {
+  font-size: x-large;
+}
+.thumb {
+  margin: 5px;
+  font-size: x-large;
+  color: white;
+}
+.bg-thumb {
+  background-color: #7653c9;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.cloud {
+  margin: 5px;
+  font-size: x-large;
+  color: white;
+}
+.bg-cloud {
+  background-color: #d43e63;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.search {
+  margin: 5px;
+  font-size: x-large;
+  color: plum;
+}
+.bg-search {
+  background-color: #dddbf3;
+  border-radius: 20px;
+  margin-right: 10px;
+  max-width: 40px;
+  padding: 2px;
+}
+.setting {
+  margin: 5px;
+  font-size: x-large;
+  color: #e74c3c;
+}
+.bg-setting {
+  background-color: #f5d5dd;
+  border-radius: 20px;
+  margin-right: 10px;
+  max-width: 40px;
+  padding: 2px;
+}
+.rocket {
+  margin: 5px;
+  font-size: x-large;
+  color: #f1c40f;
+}
+.bg-rocket {
+  background-color: #fff1d8;
+  border-radius: 20px;
+  margin-right: 10px;
+  max-width: 40px;
+  padding: 2px;
+}
+.laptop {
+  margin: 5px;
+  font-size: x-large;
+  color: #9b59b6;
+}
+.bulb {
+  margin: 5px;
+  font-size: x-large;
+  color: #f1c40f;
+}
+.infographics {
+  margin: 5px;
+  font-size: x-large;
+  color: #3498db;
+}
+.a-tag {
+  text-decoration: none;
+  font-weight: 600;
+}
+.btns {
+  border-radius: 20px;
 }
 .section-2 {
   background-color: #f2f6ff;
@@ -18,13 +103,14 @@ p {
 .section-5-p {
   color: #ffa13c;
   font-size: larger;
+  font-weight: 600;
 }
-.newsletter {
-  background: linear-gradient(
-    119deg,
-    rgba(66, 58, 212, 1) 59%,
-    rgba(4, 18, 210, 1) 59%,
-    rgba(9, 9, 121, 1) 59%
-  );
-  color: white;
+
+@media only screen and (max-width: 600px) {
+  .sec-2 {
+    display: contents !important;
+  }
+}
+.cards {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }

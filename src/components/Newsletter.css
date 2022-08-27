@@ -1,0 +1,19 @@
+.newsletter {
+  background: linear-gradient(
+    119deg,
+    rgba(77, 83, 228, 1) 59%,
+    rgba(77, 83, 228, 1) 59%,
+    rgba(6, 15, 230, 1) 59%
+  );
+  color: white;
+}
+.newsletter-btn {
+  padding-inline: 90px;
+  padding-block: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter-btn {
+    padding-inline: 10px !important;
+    padding-block: 10px !important;
+  }
+}
