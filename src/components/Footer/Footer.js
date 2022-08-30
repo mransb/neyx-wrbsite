@@ -10,7 +10,9 @@ const Footer = () => {
     <div className="body">
       <Row>
         <Col lg={3} sm={12}>
-          <h4>NeyX</h4>
+          <h2 className="logo">
+            Ney<span className="logo-span">X</span>
+          </h2>
           <p className="mt-4">
             Some description about the company, just for example purpose, no one
             is going to ever read this ever, you have agood day. not
@@ -19,7 +21,7 @@ const Footer = () => {
         <Col sm={2} md={3} lg={2} className="d-flex justify-content-center">
           <div>
             <h2>Company</h2>
-            <ul>
+            <ul className="footer-list">
               <li>Home</li>
               <li>About</li>
               <li>Policy</li>
@@ -29,8 +31,8 @@ const Footer = () => {
         </Col>
         <Col sm={2} md={3} lg={2} className="d-flex justify-content-center">
           <div>
-            <h2>Get help</h2>
-            <ul>
+            <h2 className="d-flex justify-content-center">Get help</h2>
+            <ul className="footer-list">
               <li>Support Center</li>
               <li>Service</li>
               <li>Quick chat</li>
@@ -39,8 +41,8 @@ const Footer = () => {
         </Col>
         <Col sm={2} md={3} lg={2} className="d-flex justify-content-center">
           <div>
-            <h2>Support</h2>
-            <ul>
+            <h2 className="d-flex justify-content-center">Support</h2>
+            <ul className="footer-list">
               <li>FAQ</li>
               <li>Policy</li>
               <li>Support</li>
@@ -49,8 +51,8 @@ const Footer = () => {
         </Col>
         <Col sm={2} md={3} lg={2} className="d-flex justify-content-center">
           <div>
-            <h2>Contact</h2>
-            <ul>
+            <h2 className="d-flex justify-content-center">Contact</h2>
+            <ul className="footer-list">
               <li>Mail</li>
               <li>27/7</li>
             </ul>
@@ -58,18 +60,22 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="d-flex">
+        <Col className="d-flex logo-container">
           <div className="p-2">
-            <BsFacebook />
+            <BsFacebook className="footer-icon1" />
           </div>
           <div className="p-2">
-            <AiFillInstagram />
+            <AiFillInstagram className="footer-icon2" />
           </div>
           <div className="p-2">
-            <BsLinkedin />
+            <BsLinkedin className="footer-icon3" />
           </div>
         </Col>
         <hr className="mt-5" />
+        <div className="footer-end">
+          <p>Terms and Conditions</p>
+          <p>Made in India</p>
+        </div>
       </Row>
     </div>
   );

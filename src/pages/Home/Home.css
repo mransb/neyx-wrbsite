@@ -1,10 +1,13 @@
+.main-home {
+  padding: 5% 10% 5% 10%;
+}
 h1 {
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Bakbak One", cursive;
   font-weight: 600;
   font-size: 55px;
 }
 h2 {
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Bakbak One", cursive;
   font-weight: 600;
 }
 p {
@@ -95,7 +98,9 @@ p {
 }
 .btns {
   border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
+
 .section-2 {
   background-color: #f2f6ff;
   padding: 20px;

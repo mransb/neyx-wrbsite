@@ -1,0 +1,28 @@
+.main {
+  padding: 5% 10% 5% 10%;
+  /* background: linear-gradient(to bottom, black 20%, white 50%); */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    #f5f8ff 70%
+  );
+}
+/* .row-1 {
+  background-color: #f5f8ff;
+} */
+.first-span {
+  color: #0307ee;
+}
+.second-span {
+  font-size: 40px;
+}
+.sec-1-30plus {
+  font-weight: 900;
+}
+.comma {
+  font-size: 140px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: -10%;
+}

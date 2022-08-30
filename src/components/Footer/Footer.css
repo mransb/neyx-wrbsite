@@ -1,4 +1,39 @@
 .body {
   background-color: #e8e8e8;
-  padding: 5%;
+  padding: 5% 5% 2% 10%;
+}
+.footer-list {
+  font-weight: 600;
+  font-family: "Montserrat" !important;
+  list-style-type: none;
+}
+.footer-icon1 {
+  font-size: larger;
+}
+.footer-icon1:hover {
+  color: #4867aa;
+  transform: scale(1.5);
+}
+.footer-icon2 {
+  font-size: larger;
+}
+.footer-icon2:hover {
+  color: #f70166;
+  transform: scale(1.5);
+}
+.footer-icon3 {
+  font-size: larger;
+}
+.footer-icon3:hover {
+  color: #0077b5;
+  transform: scale(1.5);
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+  .logo-container {
+    justify-content: center;
+  }
 }

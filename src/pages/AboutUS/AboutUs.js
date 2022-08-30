@@ -7,7 +7,7 @@ import AboutUsCard from "./AboutUsCard";
 import EmployeeCard from "./EmployeeCard";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
-import Newsletter from "../../components/Newsletter";
+import Newsletter from "../../components/Newsletter/Newsletter";
 
 const AboutUs = () => {
   return (

@@ -7,7 +7,7 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Carousel from "react-bootstrap/Carousel";
 import HomeCards from "./HomeCards";
-import Newsletter from "../../components/Newsletter";
+import Newsletter from "../../components/Newsletter/Newsletter";
 import {
   BsArrowUpRight,
   BsLightbulbFill,
@@ -21,7 +21,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div fluid="md" className="p-5">
+    <div fluid="md" className="main-home">
       <Row>
         <Col className="mt-5 section-1 d-flex justify-content-center">
           <div>
@@ -51,13 +51,17 @@ const Home = () => {
             </Col>
           </div>
         </Col>
-        <Col lg={6} sm={12} className="mt-5 d-flex justify-content-center">
+        <Col
+          lg={6}
+          sm={12}
+          className="mt-5 d-flex justify-content-center align-items-center"
+        >
           <div>
             <img
               src="https://s3-alpha-sig.figma.com/img/b22a/5f30/b3409eec92df187ddb26019549efd686?Expires=1661731200&Signature=O050BBZ0jr5lPMhiNxZHrPiyvMWhHqJFRVja-dJPnBLzhsrZbBUZ-HaR3HoTziCHKp-19LKA3N58RMbGHRM7mz4g1aCOFmepfSRq2--skMQvtC7uYJZUBJ7urOAwS4~TBLLn0YvWkg2E4OqRH-xrJeMR-k7bX9Qb9SAigyWLGDJ37oaxiBcV65QSZmeZIWslQkHhcQ11ao2SqmuNUOec608Abd6x4~2YQmCIet6ED0tVIQEnusDODVOoXEzyAznRqiXRQ1qiT6jHZ3McD8S6Z-ncSnatrPdu5NIwqVNFNZaTRDkzBBZzuKtSeTQbQgblVzpPl~1q4fU-Quv5NUPvTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
               alt=""
               width="100%"
-              height="80%"
+              height="75%"
             />
           </div>
         </Col>
@@ -154,8 +158,8 @@ const Home = () => {
           <img
             src="https://s3-alpha-sig.figma.com/img/012a/6be6/7ffee43147ffb81580437e769a93afc6?Expires=1661731200&Signature=eEqw9itm9Qy8DieN9Q6JT~jJr7uSgyeqq6BMMmv7TON9HM2hHgbh9YCcDk5PdnGvrpRoNkvJqgXncPOroV17vgRmy3~7Shuz4abY4ZfjUOxtHPqHXX-LUY4aNQtYK7R9w4VVQDcILsOtUMwT9VuE24ypZN4O9oask-XdOIMC3zoxneuXorZdAijEMU-Z0zqA3bW9~s2fUXoiFI~Gb3mj2FLt2-zU0y7ck1KffvU1A6sEIkM~PEMcRqzhJOGirJ9fzlNm9jCiDiKUy8cXxcke~4K5x2TOs~eVZPCKPVHeavF~orJH9xg75u5ZL5oqGu6VzVAeLdGtTLBGP7rlVScZHw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             alt=""
-            width="50%"
-            height="80%"
+            width="70%"
+            height="90%"
           />
         </Col>
         <Col className="d-flex align-items-center justify-content-center">
@@ -217,8 +221,8 @@ const Home = () => {
           <img
             src="https://s3-alpha-sig.figma.com/img/9407/cfae/a12551eb8b8b0dec8d6f316717836829?Expires=1661731200&Signature=hhIV2V4lQpWOgavQqSNZFjWCftu~4UyMAfiO8zjjRbfn0qmu9mrxxcoRx3y26B8st7mTtAQV5oOOckUQTq15gOEWa1mtJiXYF5UfKwZvSlH0lrqIjO6H7eJM08Csgx6DIF0U9j9zL1wnvlki5xHTT3iqvD~5BPfCpg~r-0-I-Fkv3x6I8d8TeMjtJS40Vx0dzi~V-Jk63qUOplGv889ovXHfS1nFNxoXpEaTeVvThqPaYfBo8BbBhXi5atpMiijlxhcT9y6v1DsjoCqOsMeKdDFgfvfq5TwQjfxdBDbyqRE9Aa0NVnkByTx6hoUsP8nk9Dd4szIsXC4tDEPmZYUh1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             alt=""
-            width="50%"
-            height="80%"
+            width="70%"
+            height="90%"
           />
         </Col>
       </Row>
